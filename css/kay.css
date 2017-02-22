@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('../webFonts/OpenSansLight/OpenSans-Light-webfont.eot');
+	src: url('../webFonts/OpenSansLight/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../webFonts/OpenSansLight/OpenSans-Light-webfont.woff') format('woff'),
+		url('../webFonts/OpenSansLight/OpenSans-Light-webfont.ttf') format('truetype'),
+		url('../webFonts/OpenSansLight/OpenSans-Light-webfont.svg') format('svg');
+}
+
+#logo{
+    display: inline-block;
+    border: 2px solid;
+    border-top-color:deepskyblue;
+    border-right-color:fuchsia;
+    border-bottom-color:deeppink;
+    border-left-color:orangered;
+    border-radius: 25px;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    left: 615px;
+}
+
+body {
+	font-family: "OpenSansLight";
+    margin: 0px;
+    padding; 0px;
+    
+}
+
+#mainContent{
+    margin: 30px 0px 0px 0px;
+}
+
+#subContent{
+    width: 700px;
+    margin: 40px auto 0px auto;    
+}
+
+#subContent p{
+    text-align: center;  
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 15px;
+}
+
+
+#navigation{
+    width: 700px;
+    margin: -15px auto 0px auto;
+
+}
+
+ul{
+    text-align: center;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+#subContent a{
+    text-decoration: none;
+    /* text-shadow: 0 0 .4px #000; */
+    color: deepskyblue;
+}
+
+#navigation ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 40px 0px 40px;
+}
+
+#header{    
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, deepskyblue, fuchsia, deeppink, orangered); /* Standard syntax */
+    font-size: 6px;
+}
+
+.deepskyblue{ color: deepskyblue; }
+.fuchsia{ color: fuchsia; }
+.deeppink{ color: deeppink; }
+.orangered{ color: orangered; }
+
+.small{ font-size: 28px; }
+
+.footerText{ 
+    position:relative;
+    top: 60px;
+    
+}
+
+#footer{
+    width: 100%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    border: 1px solid;
+    
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* Standard syntax */
+    
+    border-radius: 5px;
+    color: #FFF;
+    
+    text-shadow: 0 0 1px deepskyblue, 0 0 2px fuchsia, 0 0 3px deeppink, 0 0 4px orangered;
+    position: absolute;
+    bottom: 0px;
+    height: 150px;
+}

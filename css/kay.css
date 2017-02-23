@@ -53,10 +53,7 @@ body {
     color: deepskyblue;
 }
 
-#subContent p ul a{
-    
-    color: #000;
-}
+   
 
 #navigation{
     width: 700px;
@@ -73,15 +70,31 @@ a{
     text-decoration: none;
 }
 
-#subContent p ul a{
-    color: #000;
+
+
+#subContent li{
+    list-style-type:none;
 }
+
+.crossedOut{
+    text-decoration: line-through;
+}
+
+.floatLeft{
+    position: absolute;
+    top:213px;
+    right: 535px;
+}
+
+
 
 #navigation ul li{
     list-style-type: none;
     display: inline;
     margin: 0px 40px 0px 40px;
 }
+
+
 
 #navigation a:hover{
     text-shadow: 0 0 30px deepskyblue, 0 0 30px fuchsia, 0 0 30px deeppink, 0 0 30px orangered;

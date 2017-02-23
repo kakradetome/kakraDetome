@@ -48,6 +48,15 @@ body {
     font-size: 15px;
 }
 
+#subContent p a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#subContent p ul a{
+    
+    color: #000;
+}
 
 #navigation{
     width: 700px;
@@ -64,10 +73,8 @@ a{
     text-decoration: none;
 }
 
-#subContent a{
-    text-decoration: none;
-    /* text-shadow: 0 0 .4px #000; */
-    color: deepskyblue;
+#subContent p ul a{
+    color: #000;
 }
 
 #navigation ul li{
@@ -76,12 +83,44 @@ a{
     margin: 0px 40px 0px 40px;
 }
 
-#header{    
+#navigation a:hover{
+    text-shadow: 0 0 30px deepskyblue, 0 0 30px fuchsia, 0 0 30px deeppink, 0 0 30px orangered;
+}
+
+
+#headerIndex{    
     background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(to left, deepskyblue, fuchsia, deeppink, orangered); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to left, deepskyblue, fuchsia, deeppink, orangered); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left, deepskyblue, fuchsia, deeppink, orangered); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to left, deepskyblue, fuchsia, deeppink, orangered); /* Standard syntax */
+    font-size: 6px;
+}
+
+#headerAbout{    
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to left, orangered, deepskyblue, fuchsia, deeppink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to left, orangered, deepskyblue, fuchsia, deeppink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left, orangered, deepskyblue, fuchsia, deeppink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, orangered, deepskyblue, fuchsia, deeppink); /* Standard syntax */
+    font-size: 6px;
+}
+
+#headerContact{    
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to left, deeppink, orangered, deepskyblue, fuchsia); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to left, deeppink, orangered, deepskyblue, fuchsia); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left, deeppink, orangered, deepskyblue, fuchsia); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, deeppink, orangered, deepskyblue, fuchsia); /* Standard syntax */
+    font-size: 6px;
+}
+
+#headerProjects{    
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to left, fuchsia, deeppink, orangered, deepskyblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to left, fuchsia, deeppink, orangered, deepskyblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to left, fuchsia, deeppink, orangered, deepskyblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, fuchsia, deeppink, orangered, deepskyblue); /* Standard syntax */
     font-size: 6px;
 }
 
@@ -90,25 +129,23 @@ a{
 .deeppink{ color: deeppink; }
 .orangered{ color: orangered; }
 
+.backgroundHover{
+    text-shadow: 0 0 30px deepskyblue, 0 0 30px fuchsia, 0 0 30px deeppink, 0 0 30px orangered;
+}
+
 .small{ font-size: 28px; }
 
 .footerText{ 
     position:relative;
-    top: 60px;
+    top: 103px;
     
 }
 
-#footer{
+footer{
     width: 100%;
     margin: 0px auto 0px auto;
     text-align: center;
     border: 1px solid;
-    
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* Standard syntax */
     
     border-radius: 5px;
     color: #FFF;
@@ -117,4 +154,52 @@ a{
     position: absolute;
     bottom: 0px;
     height: 150px;
+}
+
+footer ul{
+    position: relative;
+    top: 22px;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 40px 0px 40px;
+}  
+
+footer ul a li{
+    color: #fff;
+}   
+
+
+#footerIndex{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, deepskyblue, fuchsia, deeppink, orangered); /* Standard syntax */
+}
+
+#footerAbout{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to right, orangered, deepskyblue, fuchsia, deeppink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, orangered, deepskyblue, fuchsia, deeppink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, orangered, deepskyblue, fuchsia, deeppink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orangered, deepskyblue, fuchsia, deeppink); /* Standard syntax */
+}
+
+#footerContact{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to right, deeppink, orangered, deepskyblue, fuchsia); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, deeppink, orangered, deepskyblue, fuchsia); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, deeppink, orangered, deepskyblue, fuchsia); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, deeppink, orangered, deepskyblue, fuchsia); /* Standard syntax */
+}
+
+#footerProjects{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to right, fuchsia, deeppink, orangered, deepskyblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, fuchsia, deeppink, orangered, deepskyblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, fuchsia, deeppink, orangered, deepskyblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, fuchsia, deeppink, orangered, deepskyblue); /* Standard syntax */
 }
